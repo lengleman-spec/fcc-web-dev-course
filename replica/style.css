@@ -1,3 +1,25 @@
+/*   Add body rules and consider reset?   */
+
+/*   Add custom variables for color     */
+:root {
+  --PALE-BROWN: #ede0d4;
+  --PEACH: #e6ccb2;
+  --TAN: #ddb892;
+  --LIGHT-BROWN: #b08968;
+  --CHOC-BROWN: #7f5539;
+  --BROWN: #9c6644;
+}
+
 h1 {
   text-align: center;
+  color: #7f5539;
+}
+
+#banner {
+  width: 100%;
+}
+
+/*   PRODUCTS ("Job Opportunities")   */
+.item {
+  color: blue;
 }
