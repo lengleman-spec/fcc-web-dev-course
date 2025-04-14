@@ -15,6 +15,14 @@ h1 {
   color: #7f5539;
 }
 
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
 #banner {
   width: 100%;
 }
@@ -22,4 +30,22 @@ h1 {
 /*   PRODUCTS ("Job Opportunities")   */
 .item {
   color: blue;
+}
+
+/*    FOOTER     */
+#footer {
+  background-color: var(--TAN);
+  padding: 8px;
+  margin-top: 32px;
+  /* NOTE: The text-align property (via centering and on the same line) works below because we declared the <li> elements as "display: inline". Otherwise the links would still be centered, but stacked vertically. */
+  text-align: center;
+}
+
+#footer-links {
+  list-style-type: none;
+}
+
+#footer-links li {
+  display: inline;
+  margin: 0 16px;
 }
