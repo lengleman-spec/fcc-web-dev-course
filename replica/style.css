@@ -36,6 +36,9 @@ h2 {
 #about-wrapper {
   display: flex;
   justify-content: space-between;
+  border: 3px solid green;
+  margin-left: 50px;
+  margin-right: auto;
 }
 
 #description {
@@ -59,8 +62,7 @@ h2 {
   border: 2px solid red;
   border-radius: 5px;
   /* NOTE: I used the margin: auto hack to center the img within the div. This works because the image has explicitly stated width (see html file) */
-
-  margin-left: 50px;
+  margin: auto;
 }
 
 /*   PRODUCTS ("Job Opportunities")   */
