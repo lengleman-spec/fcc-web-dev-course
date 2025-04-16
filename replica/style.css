@@ -10,6 +10,7 @@
 
 body {
   background-color: var(--PALE-BROWN);
+  margin: 0;
 }
 
 h1,
@@ -24,7 +25,6 @@ a {
 
 #banner {
   width: 100%;
-  border-radius: 25px;
 }
 
 /*    ABOUT SECTION     */
