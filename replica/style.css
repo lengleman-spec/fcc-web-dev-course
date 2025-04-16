@@ -51,6 +51,12 @@ a {
 
 #description p {
   text-align: justify;
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+#description ol {
+  margin-left: 30px;
 }
 
 #team {
