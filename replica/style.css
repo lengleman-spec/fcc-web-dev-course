@@ -8,7 +8,12 @@
   --BROWN: #9c6644;
 }
 
-h1 {
+body {
+  background-color: var(--PALE-BROWN);
+}
+
+h1,
+h2 {
   text-align: center;
   color: #7f5539;
 }
@@ -17,28 +22,26 @@ a {
   text-decoration: none;
 }
 
-h2 {
-  text-align: center;
-}
-
 #banner {
   width: 100%;
+  border-radius: 25px;
 }
 
 /*    ABOUT SECTION     */
 #about {
   display: flex;
   justify-content: space-between;
-  margin: 0 30px;
+  margin: 0 auto;
   height: 400px;
-  background-color: #b08968;
+  max-width: 900px;
+  background-color: var(--TAN);
+  border-radius: 18px;
 }
 
 #about-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid green;
 }
 
 #description {
@@ -58,9 +61,7 @@ h2 {
 }
 
 #team img {
-  border: 2px solid red;
-  border-radius: 5px;
-  /* NOTE: I used the margin: auto hack to center the img within the div. This works because the image has explicitly stated width (see html file) */
+  border-radius: 6px;
 }
 
 /*   PRODUCTS ("Job Opportunities")   */
