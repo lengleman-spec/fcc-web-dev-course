@@ -29,40 +29,39 @@ h2 {
 #about {
   display: flex;
   justify-content: space-between;
-  border: 3px solid yellow;
-  margin: 20px;
+  margin: 0 30px;
+  height: 400px;
+  background-color: #b08968;
 }
 
 #about-wrapper {
   display: flex;
   justify-content: space-between;
   border: 3px solid green;
-  margin-left: 50px;
-  margin-right: auto;
 }
 
 #description {
-  /* for seeing purposes */
-
-  border: 2px solid blue;
   width: 50%;
+  padding: 30px;
 }
 
 #description p {
-  /*
-  margin-top: 30px;
-  border: 2px solid red; */
+  text-align: justify;
 }
 
 #team {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #team img {
   border: 2px solid red;
   border-radius: 5px;
   /* NOTE: I used the margin: auto hack to center the img within the div. This works because the image has explicitly stated width (see html file) */
-  margin: auto;
+  margin-left: 100px;
+  margin-right: auto;
 }
 
 /*   PRODUCTS ("Job Opportunities")   */
