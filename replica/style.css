@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+
 /*   Add custom variables for color     */
 :root {
   --PALE-BROWN: #ede0d4;
@@ -11,12 +13,20 @@
 body {
   background-color: var(--PALE-BROWN);
   margin: 0;
+  font-family: "Winky Rough", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-h1,
+h1 {
+  text-align: center;
+  color: #7f5539;
+  font-size: 40px;
+}
+
 h2 {
   text-align: center;
   color: #7f5539;
+  font-size: 30px;
 }
 
 a {
@@ -53,10 +63,12 @@ a {
   text-align: justify;
   margin-left: 30px;
   margin-right: auto;
+  font-size: 18px;
 }
 
 #description ol {
   margin-left: 30px;
+  font-size: 18px;
 }
 
 #team {
