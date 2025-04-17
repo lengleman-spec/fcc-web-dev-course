@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
 
-/*   Add custom variables for color     */
+/*   Custom Variables     */
 :root {
   --PALE-BROWN: #ede0d4;
   --PEACH: #e6ccb2;
@@ -99,7 +99,7 @@ h3 {
   margin-top: 0;
 }
 
-.apply {
+.order {
   float: right;
 }
 
@@ -117,10 +117,17 @@ h3 {
 }
 
 #footer-links li {
+  /*  You can use display: inline when you have divs stacked on top of each other and you want them horizontally next to each other, as shown below.
+
+  Another way to do this would be with display: flex, which will by default put the list items next to each other.  */
   display: inline;
   margin: 0 16px;
 }
 
+#footer-links a {
+  color: var(--BROWN);
+}
+
 .copyright {
-  color: gray;
+  color: var(--BROWN);
 }
