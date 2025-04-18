@@ -19,8 +19,13 @@ body {
 
 h1 {
   text-align: center;
-  color: #7f5539;
-  font-size: 40px;
+  color: var(--CHOC-BROWN);
+  font-size: 80px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px black;
 }
 
 h2 {
@@ -35,6 +40,10 @@ a {
 
 #banner {
   width: 100%;
+}
+
+#banner-container {
+  position: relative;
 }
 
 /*    ABOUT SECTION     */
