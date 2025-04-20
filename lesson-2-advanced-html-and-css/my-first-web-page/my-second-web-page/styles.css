@@ -57,10 +57,18 @@ h1 {
 
 .jobs-header-row th {
   border: 1px solid gray;
+  padding: 8px;
+  background-color: aliceblue;
 }
 
 .jobs-data-row td {
   border: 1px solid gray;
+  padding: 8px;
+}
+
+/*  The nth-child pseudoclass can be used to select a row (tr) within the jobs-table (id #jobs-table) where 'n' is odd (nth child pseudoclass.  */
+#jobs-table tr:nth-child(odd) {
+  background-color: aliceblue;
 }
 
 .location {
