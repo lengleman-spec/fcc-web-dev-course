@@ -46,6 +46,23 @@ h1 {
   width: 100%;
 }
 
+/*    JOBS / TABLE SECTION    */
+
+#jobs-table {
+  width: 100%;
+  border: 1px solid gray;
+  /*  The border-collapse property can be used to get rid of the double lined borders that by default exist  */
+  border-collapse: collapse;
+}
+
+.jobs-header-row th {
+  border: 1px solid gray;
+}
+
+.jobs-data-row td {
+  border: 1px solid gray;
+}
+
 .location {
   color: gray;
   margin-bottom: 16px;
@@ -55,7 +72,6 @@ h2 {
   text-align: center;
 }
 
-/*    JOBS / TABLE SECTION    */
 #jobs {
   max-width: 800px;
   margin: 0 auto;
@@ -65,15 +81,6 @@ h2 {
 h3 {
   margin-bottom: 4px;
   margin-top: 0;
-}
-
-table,
-th {
-  border: 2px solid black;
-}
-
-td {
-  border: 1px solid black;
 }
 
 .apply {
