@@ -7,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Oxanium", "Noto Sans", monospace;
+  font-size: 16px;
+  color: #444;
 }
 
 a {
@@ -69,6 +71,16 @@ h3 {
   border: 1px solid gray;
   /*  The border-collapse property can be used to get rid of the double lined borders that by default exist  */
   border-collapse: collapse;
+  font-family: "Noto Sans";
+
+  color: #222;
+}
+
+#jobs-table th {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  color: #222;
+  background-color: #bfdbfe;
 }
 
 .jobs-header-row th {
@@ -86,7 +98,7 @@ h3 {
 
 /*  The nth-child pseudoclass can be used to select a row (tr) within the jobs-table (id #jobs-table) where 'n' is odd (nth child pseudoclass.  */
 #jobs-table tr:nth-child(odd) {
-  background-color: aliceblue;
+  background-color: #eff6ff;
 }
 
 .location {
@@ -118,7 +130,7 @@ h3 {
 }
 
 #footer {
-  background-color: ghostwhite;
+  background-color: #fafafa;
   padding: 8px;
   margin-top: 32px;
   text-align: center;
