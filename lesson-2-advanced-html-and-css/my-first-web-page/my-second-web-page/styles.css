@@ -64,7 +64,30 @@ h3 {
   width: 100%;
 }
 
+/*    APPLICATION FORM    */
+#application {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+#application-form label {
+  font-weight: 600;
+}
+
+#application-form input {
+  padding: 4px;
+  /*  Note - often it's helpful to slightly increase the font-size of an input field to better help the user  */
+  font-size: 1.25rem;
+}
+
 /*    JOBS / TABLE SECTION    */
+
+#jobs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
 
 #jobs-table {
   width: 100%;
