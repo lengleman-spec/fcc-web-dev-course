@@ -76,10 +76,11 @@ h3 {
 }
 
 .form-group {
-  margin-top: 16px;
+  margin: 10px 0;
 }
 
-#application-form input {
+#application-form input,
+select {
   padding: 4px;
   /*  Note - often it's helpful to slightly increase the font-size of an input field to better help the user  */
   font-size: 1.25rem;

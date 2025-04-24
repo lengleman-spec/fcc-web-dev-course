@@ -162,7 +162,21 @@
                 <label for="dob" >Date of Birth</label>
                 <br>
                 <input type="date" id="dob" name="dob" required >
-        
+            </div>
+
+    <!--    Creating a DropDown Menu       -->
+            <div class="form-group">
+                <label for="position">Position Applied for</label>
+                <br>
+                <select name="Position Applied" id="position" required>
+    <!--    we put one option value="" (empty) so that it creates a nice placeholder but doesn't send useless information to the server -->
+                    <option value="">Select position</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="full stack developer">Full Stack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="machine learning engineer">Machine Learning Engineer</option>
+                </select>
+            </div>
         </form>
     </div>
 
