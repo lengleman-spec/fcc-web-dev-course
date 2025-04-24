@@ -75,10 +75,16 @@ h3 {
   font-weight: 600;
 }
 
+#application-form div {
+  margin-top: 16px;
+}
+
 #application-form input {
   padding: 4px;
   /*  Note - often it's helpful to slightly increase the font-size of an input field to better help the user  */
   font-size: 1.25rem;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
 
 /*    JOBS / TABLE SECTION    */
