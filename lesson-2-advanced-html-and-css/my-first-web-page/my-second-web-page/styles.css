@@ -3,6 +3,7 @@
 * {
   font-size: 20px;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -64,7 +65,7 @@ h3 {
   width: 100%;
 }
 
-/*    APPLICATION FORM    */
+/******** APPLICATION FORM ********/
 #application {
   max-width: 800px;
   margin: 0 auto;
@@ -79,8 +80,21 @@ h3 {
   margin: 10px 0;
 }
 
+.form-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #2563eb;
+  color: whitesmoke;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 #application-form input,
-select {
+select,
+textarea {
   padding: 4px;
   /*  Note - often it's helpful to slightly increase the font-size of an input field to better help the user  */
   font-size: 1.25rem;
@@ -88,7 +102,12 @@ select {
   border: 1px solid gray;
 }
 
-/*    JOBS / TABLE SECTION    */
+.form-group textarea {
+  width: 80%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/********** JOBS / TABLE SECTION ***********/
 
 #jobs {
   max-width: 800px;
