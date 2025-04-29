@@ -40,7 +40,9 @@ h2 {
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0%;
+  text-align: left;
   color: #331e6a;
+  margin: 16px auto;
 }
 
 .small-text {
@@ -102,6 +104,7 @@ h2 {
   text-transform: uppercase;
   color: #2858ff;
   text-align: center;
+  margin: 10px 0;
 }
 
 .section-heading {
@@ -193,4 +196,34 @@ h2 {
   background-color: #2f2f2f;
   color: #ffffff;
   cursor: pointer;
+}
+/********** CARD 2 **********/
+.card-2 {
+  background-color: #ffd748;
+}
+
+.card-2 .service {
+  color: #000;
+}
+
+.card-2 li {
+  color: #0000008f;
+}
+
+.card-2 .service-description {
+  color: #00000080;
+}
+
+.card-2 .price-per {
+  color: #00000080;
+}
+
+.card-2 .service-contact-btn {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.card-2 .service-contact-btn:hover {
+  background-color: #ffffff;
+  color: #2f2f2f;
 }
