@@ -227,3 +227,17 @@ h2 {
   background-color: #ffffff;
   color: #2f2f2f;
 }
+
+/***** FOOTER SECTION *****/
+#footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 48px;
+  background-color: #000;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
