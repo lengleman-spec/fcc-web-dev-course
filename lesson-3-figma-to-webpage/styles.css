@@ -94,6 +94,11 @@ h2 {
 }
 
 /***** EXPERTISE / WHAT I DO *****/
+.expertise-container {
+  max-width: 1060px;
+  margin: 0 auto 48px auto;
+}
+
 #dev-types {
   display: flex;
   justify-content: space-evenly;
@@ -128,6 +133,46 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+/*****  PROJECTS SECTION *****/
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1060px;
+  margin: 0 auto 48px auto;
+}
+
+.icon-box {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background-color: #19acff;
+  border-radius: 6px;
+}
+
+.icon-box p {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 130px;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.project-text h4,
+.project-text p,
+.project-text a {
+  margin: 0 18px;
+}
+
+.project-text p {
+  max-width: 800px;
 }
 /******** PRICING SECTION **********/
 #pricing-container {
