@@ -137,7 +137,7 @@ h2 {
 }
 
 /*****  PROJECTS SECTION *****/
-.project-container {
+#project-container {
   display: flex;
 }
 
@@ -213,10 +213,19 @@ h2 {
 .project-text p {
   max-width: 800px;
 }
+
+.project-text a {
+  text-decoration: none;
+  color: #6287a3;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+}
 /******** PRICING SECTION **********/
 #pricing-container {
   max-width: 1060px;
-  margin: 0 auto 48px auto;
+  margin: 48px auto;
 }
 
 .over-title {
